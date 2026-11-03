@@ -1,0 +1,353 @@
+{
+ "contents": {
+  "sectionListRenderer": {
+   "contents": [
+    {
+     "musicShelfRenderer": {
+      "contents": [
+       {
+        "musicResponsiveListItemRenderer": {
+         "thumbnail": {
+          "musicThumbnailRenderer": {
+           "thumbnail": {
+            "thumbnails": [
+             {
+              "url": "https://yt3.googleusercontent.com/f9u7_ieNkIsQs0EJNB6HYlT0tcSC-t4uR6ZSWlhO3sqbQ013MgQB8Ha2jeqa51ctbaIvER_ovuOveOHr8Q=w60-h60-l90-rj",
+              "width": 60,
+              "height": 60
+             },
+             {
+              "url": "https://yt3.googleusercontent.com/f9u7_ieNkIsQs0EJNB6HYlT0tcSC-t4uR6ZSWlhO3sqbQ013MgQB8Ha2jeqa51ctbaIvER_ovuOveOHr8Q=w120-h120-l90-rj",
+              "width": 120,
+              "height": 120
+             }
+            ]
+           },
+           "thumbnailCrop": "MUSIC_THUMBNAIL_CROP_UNSPECIFIED",
+           "thumbnailScale": "MUSIC_THUMBNAIL_SCALE_ASPECT_FIT",
+           "trackingParams": "CO4CEIS_AiITCIqI9orJ6ZcDFd6AsQMdZGwO8g=="
+          }
+         },
+         "flexColumns": [
+          {
+           "musicResponsiveListItemFlexColumnRenderer": {
+            "text": {
+             "runs": [
+              {
+               "text": "Hide & Seek",
+               "navigationEndpoint": {
+                "watchEndpoint": {
+                 "videoId": "kPS8Av2lhSY"
+                }
+               }
+              }
+             ]
+            },
+            "displayPriority": "MUSIC_RESPONSIVE_LIST_ITEM_COLUMN_DISPLAY_PRIORITY_HIGH"
+           }
+          },
+          {
+           "musicResponsiveListItemFlexColumnRenderer": {
+            "text": {
+             "runs": [
+              {
+               "text": "Nathan Coles",
+               "navigationEndpoint": {
+                "browseEndpoint": {
+                 "browseId": "UCjFLQIP4wILXNzCsxqp5Zww",
+                 "browseEndpointContextSupportedConfigs": {
+                  "browseEndpointContextMusicConfig": {
+                   "pageType": "MUSIC_PAGE_TYPE_ARTIST"
+                  }
+                 }
+                }
+               }
+              },
+              {
+               "text": " • "
+              },
+              {
+               "text": "Hide & Seek",
+               "navigationEndpoint": {
+                "browseEndpoint": {
+                 "browseId": "MPREb_8QVrrGqBS3z",
+                 "browseEndpointContextSupportedConfigs": {
+                  "browseEndpointContextMusicConfig": {
+                   "pageType": "MUSIC_PAGE_TYPE_ALBUM"
+                  }
+                 }
+                }
+               }
+              },
+              {
+               "text": " • "
+              },
+              {
+               "text": "7:39"
+              }
+             ],
+             "accessibility": {
+              "accessibilityData": {
+               "label": "Nathan Coles • Hide & Seek • 7 minutes, 39 seconds"
+              }
+             }
+            },
+            "displayPriority": "MUSIC_RESPONSIVE_LIST_ITEM_COLUMN_DISPLAY_PRIORITY_HIGH"
+           }
+          },
+          {
+           "musicResponsiveListItemFlexColumnRenderer": {
+            "text": {
+             "runs": [
+              {
+               "text": "17K plays"
+              }
+             ],
+             "accessibility": {
+              "accessibilityData": {
+               "label": "17 thousand plays"
+              }
+             }
+            },
+            "displayPriority": "MUSIC_RESPONSIVE_LIST_ITEM_COLUMN_DISPLAY_PRIORITY_HIGH"
+           }
+          }
+         ],
+         "playlistItemData": {
+          "videoId": "kPS8Av2lhSY"
+         }
+        }
+       },
+       {
+        "musicResponsiveListItemRenderer": {
+         "thumbnail": {
+          "musicThumbnailRenderer": {
+           "thumbnail": {
+            "thumbnails": [
+             {
+              "url": "https://yt3.googleusercontent.com/KOlIRuleJIr3a0RNkXj-uM40BRSROZjKNfCMk9JGkR-w4SDnauJ6QABRPh7Rb9mXTR9Ays7vgE2rjhFoSw=w60-h60-l90-rj",
+              "width": 60,
+              "height": 60
+             },
+             {
+              "url": "https://yt3.googleusercontent.com/KOlIRuleJIr3a0RNkXj-uM40BRSROZjKNfCMk9JGkR-w4SDnauJ6QABRPh7Rb9mXTR9Ays7vgE2rjhFoSw=w120-h120-l90-rj",
+              "width": 120,
+              "height": 120
+             }
+            ]
+           },
+           "thumbnailCrop": "MUSIC_THUMBNAIL_CROP_UNSPECIFIED",
+           "thumbnailScale": "MUSIC_THUMBNAIL_SCALE_ASPECT_FIT",
+           "trackingParams": "CN0CEIS_AiITCIqI9orJ6ZcDFd6AsQMdZGwO8g=="
+          }
+         },
+         "flexColumns": [
+          {
+           "musicResponsiveListItemFlexColumnRenderer": {
+            "text": {
+             "runs": [
+              {
+               "text": "A Lot of Places to Hide",
+               "navigationEndpoint": {
+                "watchEndpoint": {
+                 "videoId": "x1htVI_4Y_w"
+                }
+               }
+              }
+             ]
+            },
+            "displayPriority": "MUSIC_RESPONSIVE_LIST_ITEM_COLUMN_DISPLAY_PRIORITY_HIGH"
+           }
+          },
+          {
+           "musicResponsiveListItemFlexColumnRenderer": {
+            "text": {
+             "runs": [
+              {
+               "text": "Jo Nathan",
+               "navigationEndpoint": {
+                "browseEndpoint": {
+                 "browseId": "UCgEh18PsYTG0tHBPTrP-8RA",
+                 "browseEndpointContextSupportedConfigs": {
+                  "browseEndpointContextMusicConfig": {
+                   "pageType": "MUSIC_PAGE_TYPE_ARTIST"
+                  }
+                 }
+                }
+               }
+              },
+              {
+               "text": " • "
+              },
+              {
+               "text": "A Lot of Places to Hide",
+               "navigationEndpoint": {
+                "browseEndpoint": {
+                 "browseId": "MPREb_I3tUKXdtitp",
+                 "browseEndpointContextSupportedConfigs": {
+                  "browseEndpointContextMusicConfig": {
+                   "pageType": "MUSIC_PAGE_TYPE_ALBUM"
+                  }
+                 }
+                }
+               }
+              },
+              {
+               "text": " • "
+              },
+              {
+               "text": "5:53"
+              }
+             ],
+             "accessibility": {
+              "accessibilityData": {
+               "label": "Jo Nathan • A Lot of Places to Hide • 5 minutes, 53 seconds"
+              }
+             }
+            },
+            "displayPriority": "MUSIC_RESPONSIVE_LIST_ITEM_COLUMN_DISPLAY_PRIORITY_HIGH"
+           }
+          },
+          {
+           "musicResponsiveListItemFlexColumnRenderer": {
+            "text": {
+             "runs": [
+              {
+               "text": "2 plays"
+              }
+             ],
+             "accessibility": {
+              "accessibilityData": {
+               "label": "2 plays"
+              }
+             }
+            },
+            "displayPriority": "MUSIC_RESPONSIVE_LIST_ITEM_COLUMN_DISPLAY_PRIORITY_HIGH"
+           }
+          }
+         ],
+         "playlistItemData": {
+          "videoId": "x1htVI_4Y_w"
+         }
+        }
+       },
+       {
+        "musicResponsiveListItemRenderer": {
+         "thumbnail": {
+          "musicThumbnailRenderer": {
+           "thumbnail": {
+            "thumbnails": [
+             {
+              "url": "https://yt3.googleusercontent.com/RLnARaEaLwm7xBmvnmLkeZBGhuDn5F-xS4PUiu1puLJz1otwvEwRYl9_9uSiiDzDLIiYWLcvIIAyfwgN=w60-h60-s-l90-rj",
+              "width": 60,
+              "height": 60
+             },
+             {
+              "url": "https://yt3.googleusercontent.com/RLnARaEaLwm7xBmvnmLkeZBGhuDn5F-xS4PUiu1puLJz1otwvEwRYl9_9uSiiDzDLIiYWLcvIIAyfwgN=w120-h120-s-l90-rj",
+              "width": 120,
+              "height": 120
+             }
+            ]
+           },
+           "thumbnailCrop": "MUSIC_THUMBNAIL_CROP_UNSPECIFIED",
+           "thumbnailScale": "MUSIC_THUMBNAIL_SCALE_ASPECT_FIT",
+           "trackingParams": "CMwCEIS_AiITCIqI9orJ6ZcDFd6AsQMdZGwO8g=="
+          }
+         },
+         "flexColumns": [
+          {
+           "musicResponsiveListItemFlexColumnRenderer": {
+            "text": {
+             "runs": [
+              {
+               "text": "Hide N Seekin'",
+               "navigationEndpoint": {
+                "watchEndpoint": {
+                 "videoId": "sZGnMnPYBFo"
+                }
+               }
+              }
+             ]
+            },
+            "displayPriority": "MUSIC_RESPONSIVE_LIST_ITEM_COLUMN_DISPLAY_PRIORITY_HIGH"
+           }
+          },
+          {
+           "musicResponsiveListItemFlexColumnRenderer": {
+            "text": {
+             "runs": [
+              {
+               "text": "Paul Westerberg",
+               "navigationEndpoint": {
+                "browseEndpoint": {
+                 "browseId": "UCXanU22PknjWy7urXMxERww",
+                 "browseEndpointContextSupportedConfigs": {
+                  "browseEndpointContextMusicConfig": {
+                   "pageType": "MUSIC_PAGE_TYPE_ARTIST"
+                  }
+                 }
+                }
+               }
+              },
+              {
+               "text": " • "
+              },
+              {
+               "text": "Eventually",
+               "navigationEndpoint": {
+                "browseEndpoint": {
+                 "browseId": "MPREb_6gBUa5ypsdv",
+                 "browseEndpointContextSupportedConfigs": {
+                  "browseEndpointContextMusicConfig": {
+                   "pageType": "MUSIC_PAGE_TYPE_ALBUM"
+                  }
+                 }
+                }
+               }
+              },
+              {
+               "text": " • "
+              },
+              {
+               "text": "3:07"
+              }
+             ],
+             "accessibility": {
+              "accessibilityData": {
+               "label": "Paul Westerberg • Eventually • 3 minutes, 7 seconds"
+              }
+             }
+            },
+            "displayPriority": "MUSIC_RESPONSIVE_LIST_ITEM_COLUMN_DISPLAY_PRIORITY_HIGH"
+           }
+          },
+          {
+           "musicResponsiveListItemFlexColumnRenderer": {
+            "text": {
+             "runs": [
+              {
+               "text": "16K plays"
+              }
+             ],
+             "accessibility": {
+              "accessibilityData": {
+               "label": "16 thousand plays"
+              }
+             }
+            },
+            "displayPriority": "MUSIC_RESPONSIVE_LIST_ITEM_COLUMN_DISPLAY_PRIORITY_HIGH"
+           }
+          }
+         ],
+         "playlistItemData": {
+          "videoId": "sZGnMnPYBFo"
+         }
+        }
+       }
+      ]
+     }
+    }
+   ]
+  }
+ }
+}

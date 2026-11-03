@@ -1,0 +1,58 @@
+{
+ "props": {
+  "pageProps": {
+   "state": {
+    "data": {
+     "entity": {
+      "type": "playlist",
+      "name": "Re-Onion",
+      "title": "Re-Onion",
+      "uri": "spotify:playlist:6L51w3Z99N0IfzVaT9Kys7",
+      "coverArt": {
+       "sources": [
+        {
+         "height": 640,
+         "width": 640,
+         "url": "https://mosaic.scdn.co/640/ab67616d00001e022a23b599a2bdecca686abfc4ab67616d00001e023873e4690a83269b94d29c6bab67616d00001e027548eac939174f8635bddcddab67616d00001e02e03e2ae4f8ed84b19a00dda6"
+        },
+        {
+         "height": 300,
+         "width": 300,
+         "url": "https://mosaic.scdn.co/300/ab67616d00001e022a23b599a2bdecca686abfc4ab67616d00001e023873e4690a83269b94d29c6bab67616d00001e027548eac939174f8635bddcddab67616d00001e02e03e2ae4f8ed84b19a00dda6"
+        },
+        {
+         "height": 60,
+         "width": 60,
+         "url": "https://mosaic.scdn.co/60/ab67616d00001e022a23b599a2bdecca686abfc4ab67616d00001e023873e4690a83269b94d29c6bab67616d00001e027548eac939174f8635bddcddab67616d00001e02e03e2ae4f8ed84b19a00dda6"
+        }
+       ]
+      },
+      "trackList": [
+       {
+        "uri": "spotify:track:0Ws8BjDXw0wuzdghWrpxcj",
+        "title": "Beat Trippin’",
+        "subtitle": "Gorge",
+        "duration": 369744,
+        "isPlayable": true
+       },
+       {
+        "uri": "spotify:track:5dLxEs3ppHTrVOjiGzLyqW",
+        "title": "Skyfall - Rishi K. Remix",
+        "subtitle": "Klartraum, Rishi K.",
+        "duration": 412711,
+        "isPlayable": true
+       },
+       {
+        "uri": "spotify:track:17ZXjB3BbIPjbTQB3PfAK6",
+        "title": "Moxy Edits 001",
+        "subtitle": "Moxy Edits",
+        "duration": 384000,
+        "isPlayable": true
+       }
+      ]
+     }
+    }
+   }
+  }
+ }
+}

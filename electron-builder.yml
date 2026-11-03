@@ -1,0 +1,23 @@
+appId: com.local.bitcrate
+productName: BitCrate
+directories:
+  output: dist
+  buildResources: build
+files:
+  - out/**
+  - build/icon.png
+  - package.json
+artifactName: BitCrate-Setup.exe
+extraResources:
+  - from: resources/bin
+    to: bin
+  - from: THIRD_PARTY_NOTICES.md
+    to: THIRD_PARTY_NOTICES.md
+  - from: resources/GPL-3.0.txt
+    to: GPL-3.0.txt
+win:
+  target: [nsis]
+nsis:
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true

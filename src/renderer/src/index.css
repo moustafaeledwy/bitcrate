@@ -1,0 +1,283 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "@fontsource-variable/pixelify-sans";
+@import "@fontsource-variable/schibsted-grotesk";
+
+:root {
+  --navy: #10162f;
+  --cream: #fff0e5;
+  --hyper: #3a10e5;
+  --yellow: #ffd300;
+  --pink: #f966ff;
+  --lime: #aee938;
+  --red: #c4160d;
+
+  --radius: 0;
+  --background: var(--cream);
+  --foreground: var(--navy);
+  --card: #ffffff;
+  --card-foreground: var(--navy);
+  --popover: #ffffff;
+  --popover-foreground: var(--navy);
+  --primary: var(--hyper);
+  --primary-foreground: #ffffff;
+  --secondary: var(--yellow);
+  --secondary-foreground: var(--navy);
+  --muted: #ffe2cc;
+  --muted-foreground: #464b66;
+  --accent: var(--lime);
+  --accent-foreground: var(--navy);
+  --destructive: var(--red);
+  --border: var(--navy);
+  --input: var(--navy);
+  --ring: var(--hyper);
+}
+
+@theme inline {
+  --font-sans: "Schibsted Grotesk Variable", system-ui, sans-serif;
+  --font-pixel: "Pixelify Sans Variable", "Schibsted Grotesk Variable", sans-serif;
+  --radius-sm: 0;
+  --radius-md: 0;
+  --radius-lg: 0;
+  --radius-xl: 0;
+  --radius-2xl: 0;
+  --radius-4xl: 0;
+  --color-navy: var(--navy);
+  --color-cream: var(--cream);
+  --color-hyper: var(--hyper);
+  --color-yellow: var(--yellow);
+  --color-pink: var(--pink);
+  --color-lime: var(--lime);
+  --color-red: var(--red);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+}
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+  body {
+    @apply bg-navy font-sans text-navy;
+    overflow: hidden;
+    font-size: 15px;
+    line-height: 1.45;
+  }
+  :focus-visible {
+    outline: 3px solid var(--hyper);
+    outline-offset: 2px;
+  }
+  .on-navy :focus-visible {
+    outline-color: var(--yellow);
+  }
+}
+
+@layer components {
+  .drag {
+    -webkit-app-region: drag;
+  }
+  .no-drag,
+  [data-slot="dialog-overlay"],
+  [data-slot="dialog-content"],
+  [data-slot="sheet-overlay"],
+  [data-slot="sheet-content"],
+  [data-sonner-toaster] {
+    -webkit-app-region: no-drag;
+  }
+
+  /* The one button shape: hard edge, solid shadow, presses into the page. */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border: 2px solid var(--navy);
+    background: #fff;
+    color: var(--navy);
+    padding: 0.5rem 1rem;
+    font-weight: 700;
+    box-shadow: 3px 3px 0 var(--navy);
+    transition: transform 60ms steps(2), box-shadow 60ms steps(2);
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .btn:hover:not(:disabled) {
+    transform: translate(-1px, -1px);
+    box-shadow: 4px 4px 0 var(--navy);
+  }
+  .btn:active:not(:disabled) {
+    transform: translate(3px, 3px);
+    box-shadow: 0 0 0 var(--navy);
+  }
+  .btn:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+    box-shadow: none;
+  }
+  .btn-go {
+    background: var(--yellow);
+    font-family: var(--font-pixel);
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 0.65rem 1.5rem;
+    box-shadow: 5px 5px 0 var(--navy);
+  }
+  .btn-go:hover:not(:disabled) {
+    box-shadow: 6px 6px 0 var(--navy);
+  }
+  .btn-go:active:not(:disabled) {
+    transform: translate(5px, 5px);
+  }
+  .on-navy .btn {
+    border-color: var(--cream);
+    box-shadow: 3px 3px 0 var(--hyper);
+  }
+  .on-navy .btn:hover:not(:disabled) {
+    box-shadow: 4px 4px 0 var(--hyper);
+  }
+  .on-navy .btn:disabled {
+    background: #1d2340;
+    color: var(--cream);
+    border-color: #464b66;
+    opacity: 1;
+  }
+  .on-navy .btn-go {
+    border-color: var(--navy);
+    box-shadow: 5px 5px 0 var(--pink);
+  }
+  .on-navy .btn-go:hover:not(:disabled) {
+    box-shadow: 6px 6px 0 var(--pink);
+  }
+
+  /* Fades navy into cream the way an old console would: with a checkerboard. */
+  .dither {
+    height: 16px;
+    flex: none;
+    background-color: var(--cream);
+    background-image:
+      linear-gradient(var(--navy), var(--navy)),
+      conic-gradient(var(--navy) 25%, transparent 0 50%, var(--navy) 0 75%, transparent 0),
+      conic-gradient(var(--navy) 25%, transparent 0 50%, var(--navy) 0 75%, transparent 0);
+    background-size: 100% 4px, 8px 8px, 16px 16px;
+    background-position: 0 0, 0 4px, 0 8px;
+    background-repeat: no-repeat, repeat-x, repeat-x;
+    image-rendering: pixelated;
+  }
+  .dither-tile {
+    background-color: #1d2340;
+    background-image: conic-gradient(#10162f 25%, transparent 0 50%, #10162f 0 75%, transparent 0);
+    background-size: 4px 4px;
+  }
+  .dither-tile-light {
+    background-color: #ffe2cc;
+    background-image: conic-gradient(#ffc9a3 25%, transparent 0 50%, #ffc9a3 0 75%, transparent 0);
+    background-size: 8px 8px;
+  }
+
+  .pixel-scroll {
+    scrollbar-gutter: stable;
+  }
+  .pixel-scroll::-webkit-scrollbar {
+    width: 12px;
+  }
+  .pixel-scroll::-webkit-scrollbar-track {
+    background: #ffe2cc;
+  }
+  .pixel-scroll::-webkit-scrollbar-thumb {
+    background: var(--navy);
+    border: 2px solid #ffe2cc;
+  }
+
+  .pixel-switch {
+    width: 42px;
+    height: 22px;
+    flex: none;
+    border: 2px solid var(--navy);
+    background: #fff;
+    cursor: pointer;
+    padding: 2px;
+  }
+  .pixel-switch > span {
+    display: block;
+    width: 14px;
+    height: 14px;
+    background: var(--navy);
+    transition: transform 100ms steps(3);
+  }
+  .pixel-switch[aria-checked="true"] {
+    background: var(--lime);
+  }
+  .pixel-switch[aria-checked="true"] > span {
+    transform: translateX(20px);
+  }
+  .pixel-switch:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+
+  .pixel-img {
+    image-rendering: pixelated;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .chunks {
+    height: 14px;
+    border: 2px solid currentColor;
+    position: relative;
+  }
+  .chunks > span {
+    display: block;
+    height: 100%;
+    background-image: repeating-linear-gradient(90deg, var(--chunk) 0 8px, transparent 8px 10px);
+    transition: width 200ms steps(4);
+  }
+
+  .record-spin {
+    animation: record 2.4s steps(12) infinite;
+  }
+  @keyframes record {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .blink {
+    animation: blink 1s steps(2) infinite;
+  }
+  @keyframes blink {
+    50% {
+      opacity: 0.35;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .record-spin,
+  .blink {
+    animation: none;
+  }
+  .btn,
+  .pixel-switch > span,
+  .chunks > span {
+    transition: none;
+  }
+}
