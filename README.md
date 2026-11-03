@@ -74,6 +74,15 @@ npm install
 npm run dev
 ```
 
+## Publish a new version
+
+The download link always serves the latest release. To publish one, update `version` in `package.json`, then run:
+
+```
+npm run dist
+gh release create v<version> dist/BitCrate-Setup.exe --latest --generate-notes
+```
+
 ## Legal
 
 BitCrate isn't affiliated with Spotify, YouTube, Deezer or Codecademy. Downloading from YouTube may break its terms of service, so only download what you have the right to. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for the software included in the installer.
